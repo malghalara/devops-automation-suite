@@ -99,14 +99,14 @@ ansible-playbook -i inventory.ini playbooks/install_nginx.yml
 ```
 real-world-monitoring/
 │
-├── log_monitor.py          # Python script for log monitoring & alerting
-├── system_monitor.py       # Python script for system resource monitoring with thresholds
-├── file_handler.py         # Python script for file handling & OS automation
+├── log_monitor.py          
+├── system_monitor.py       
+├── file_handler.py         
 ├── ansible/
-│   ├── inventory.ini       # Ansible inventory file with target hosts
+│   ├── inventory.ini       
 │   └── playbooks/
-│       └── install_nginx.yml  # Ansible playbook to install & manage Nginx
-└── README.md               # Project documentation
+│       └── install_nginx.yml  
+└── README.md             
 
 ```
 
