@@ -112,14 +112,6 @@ real-world-monitoring/
 
 ---
 
-## 🚀 Future Improvements
-
-* Integrate **email/Slack alerts** for system monitoring.
-* Containerize monitoring scripts using **Docker**.
-* Automate deployments with **CI/CD pipelines**.
-
----
-
 ## 🛠️ Tools & Technologies
 
 * **Python** (automation)
@@ -131,13 +123,3 @@ real-world-monitoring/
 
 ---
 
-## 👨‍💻 Author
-
-**\[Your Name]** – Intern, CDIS (SL)
-
-```
-
----
-
-⚡ Would you like me to also **add usage examples (with command outputs/screenshots)** inside the README, or keep it clean and minimal like above?
-```
