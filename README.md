@@ -97,15 +97,17 @@ ansible-playbook -i inventory.ini playbooks/install_nginx.yml
 ## 📂 Project Structure
 
 ```
-.
-├── log_monitor.py         # Log monitoring script
-├── system_monitor.py      # System metrics monitoring
-├── deploy.py              # Nginx deployment automation
-├── file_handler.py        # File handling automation
-├── inventory.ini          # Ansible inventory
-├── playbooks/
-│   └── install_nginx.yml  # Ansible playbook
-├── README.md              # Project documentation
+real-world-monitoring/
+│
+├── log_monitor.py          # Python script for log monitoring & alerting
+├── system_monitor.py       # Python script for system resource monitoring with thresholds
+├── file_handler.py         # Python script for file handling & OS automation
+├── ansible/
+│   ├── inventory.ini       # Ansible inventory file with target hosts
+│   └── playbooks/
+│       └── install_nginx.yml  # Ansible playbook to install & manage Nginx
+└── README.md               # Project documentation
+
 ```
 
 ---
