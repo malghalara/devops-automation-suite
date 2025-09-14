@@ -1,5 +1,3 @@
-
-````markdown
 # Real-World Monitoring & Deployment Automation
 
 This project is part of my internship deliverables, where I consolidated multiple DevOps and automation concepts into a hands-on setup.  
